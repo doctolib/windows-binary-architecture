@@ -1,10 +1,12 @@
 {
   "name": "windows-binary-architecture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find the architecture EXE and DLL files are built for.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc --declaration index"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,9 @@
   },
   "homepage": "https://github.com/doctolib/windows-binary-architecture#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "@types/node": "^14.0.23",
+    "jest": "^24.9.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "types": ["node"],
+    "module": "commonjs",
+    "allowJs": false,
+    "strict": true,
+    "alwaysStrict": true
+  }
+}

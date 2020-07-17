@@ -1,4 +1,4 @@
-var getTargetArch = require('./index.js')
+var getTargetArch = require('./index.js').default
 
 describe(getTargetArch, function() {
   it.each([

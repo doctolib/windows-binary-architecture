@@ -2,7 +2,7 @@
 
 import * as fs from "fs";
 
-export = getTargetArch;
+export default getTargetArch;
 
 type ArchitectureName =
   | "UNKNOWN"

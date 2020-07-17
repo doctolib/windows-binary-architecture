@@ -1,5 +1,7 @@
 "use strict";
+exports.__esModule = true;
 var fs = require("fs");
+exports["default"] = getTargetArch;
 // DWORD for offset of PE signature; see
 // https://docs.microsoft.com/en-us/windows/win32/debug/pe-format#ms-dos-stub-image-only
 var SIGNATURE_OFFSET_OFFSET = 0x3c;
@@ -116,4 +118,3 @@ function architectureNameByCode(code) {
             return null;
     }
 }
-module.exports = getTargetArch;

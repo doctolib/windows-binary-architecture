@@ -1,5 +1,17 @@
 # windows-binary-architecture
 
+## Installation
+
+```bash
+# with npm
+npm install windows-binary-architecture
+
+# with yarn
+yarn add windows-binary-architecture
+```
+
+## What is this about
+
 Find the target CPU architecture of Windows binaries (DLLs, EXEs and others).
 
 The module exposes a single function, `getTargetArch(path, callback(err,

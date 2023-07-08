@@ -32,7 +32,7 @@
   "homepage": "https://github.com/doctolib/windows-binary-architecture#readme",
   "devDependencies": {
     "@types/node": "^14.0.23",
-    "jest": "^24.9.0",
+    "jest": "^29.6.1",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
